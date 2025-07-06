@@ -48,6 +48,7 @@ export enum MedicalSpecialty {
   RADIOTERAPIA = "Radioterapia",
   REUMATOLOGIA = "Reumatologia",
   UROLOGIA = "Urologia",
+  map = "map",
 }
 
 export const medicalSpecialties = Object.entries(MedicalSpecialty).map(
