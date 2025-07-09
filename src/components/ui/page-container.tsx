@@ -16,15 +16,11 @@ export const PageHeaderContent = ({
   return <div className="w-full space-y-1">{children}</div>;
 };
 
-export const PageHeaderTitle = ({
-  children,
-}: {
-  children: React.ReactNode;
-}) => {
-  return <h1 className="text-2xl font-semibold">{children}</h1>;
+export const PageTitle = ({ children }: { children: React.ReactNode }) => {
+  return <h1 className="text-2xl font-bold">{children}</h1>;
 };
 
-export const PageHeaderDescription = ({
+export const PageDescription = ({
   children,
 }: {
   children: React.ReactNode;
@@ -32,11 +28,7 @@ export const PageHeaderDescription = ({
   return <p className="text-muted-foreground text-sm">{children}</p>;
 };
 
-export const PageHeaderActions = ({
-  children,
-}: {
-  children: React.ReactNode;
-}) => {
+export const PageActions = ({ children }: { children: React.ReactNode }) => {
   return <div className="flex items-center gap-2">{children}</div>;
 };
 

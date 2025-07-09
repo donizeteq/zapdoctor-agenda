@@ -3,10 +3,13 @@ import { headers } from "next/headers";
 import { redirect } from "next/navigation";
 
 import {
+  PageActions,
   PageContainer,
   PageContent,
+  PageDescription,
   PageHeader,
   PageHeaderContent,
+  PageTitle,
 } from "@/components/ui/page-container";
 import { db } from "@/db";
 import { doctorsTable } from "@/db/schema";
